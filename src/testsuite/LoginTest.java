@@ -28,7 +28,7 @@ public class LoginTest extends Utility {
     }
 
     @After
-    public void testDown() {
+    public void tearDown() {
         closeBrowser();
     }
 }

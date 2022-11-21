@@ -25,7 +25,7 @@ public class ForgotPasswordTest extends Utility {
     }
 
     @After
-    public void testDown() {
+    public void tearDown() {
         closeBrowser();
     }
 }
